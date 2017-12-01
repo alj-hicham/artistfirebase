@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.art.azzus.artfire.MainActivity">
+
+    <EditText
+        android:id="@+id/editTextname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter name"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Spinner
+        android:id="@+id/spinnergenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="90dp"
+        android:entries="@array/genres"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <Button
+        android:id="@+id/buttonAddartisit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:text="add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="82dp" />
+
+</RelativeLayout>

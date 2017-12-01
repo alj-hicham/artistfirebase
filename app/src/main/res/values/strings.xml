@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">artfire</string>
+    <array name="genres">
+        <item>
+            electro
+        </item>
+        <item>
+            dance
+        </item>
+        <item>
+            rock
+        </item>
+
+    </array>
+
+</resources>
